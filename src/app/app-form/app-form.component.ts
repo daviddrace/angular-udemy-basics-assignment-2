@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class FormComponent implements OnInit {
 
-  userName:string = "";
+  userName: string;
 
   contructor() {
 
@@ -16,8 +16,8 @@ export class FormComponent implements OnInit {
 
   ngOnInit() { }
 
-  resetUserName(){
-    this.userName = "";
+  resetUserName() {
+    this.userName = '';
   }
 
 }
